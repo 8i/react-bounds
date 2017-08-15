@@ -1,6 +1,6 @@
 {
-  "name": "react-bounds",
-  "version": "0.3.1",
+  "name": "@8i/ui",
+  "version": "0.3.2",
   "description": "Element Queries in React",
   "author": "case <case@casesandberg.com>",
   "main": "lib/index.js",
@@ -9,7 +9,7 @@
     "url": "https://github.com/casesandberg/react-bounds"
   },
   "scripts": {
-    "build": "webpack --config webpack.prod.js"  
+    "build": "webpack --config webpack.prod.js"
   },
   "homepage": "http://casesandberg.github.io/react-bounds/",
   "keywords": [

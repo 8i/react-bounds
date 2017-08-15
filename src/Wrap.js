@@ -127,5 +127,7 @@ module.exports = function (Component, wrapStyles = {}, componentStyles = {}) {
     }
   }
 
+  Wrap.displayName = `Bounds(${Component.displayName || Component.name})`;
+
   return Wrap
 }
