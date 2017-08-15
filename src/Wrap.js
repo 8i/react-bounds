@@ -114,7 +114,7 @@ module.exports = function (Component, wrapStyles = {}, componentStyles = {}) {
             className={ classNames(this.state.activeBounds) }
             style={{ ...styles.component, ...componentStyles }}
           >
-            { this.state.loaded && this.state.width > 0 ?
+            { this.state.loaded && (this.state.width > 0 || process.env.NODE_ENV === 'test')?
               <Component {...this.props }
                 width={ this.state.width }
                 height={ this.state.height }
